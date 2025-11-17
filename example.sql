@@ -1,0 +1,28 @@
+create database овощи;
+go
+use овощи;
+go
+
+create table овощи
+	(
+	id int primary key identity,
+	name varchar(50),
+	srok tinyint,
+	temp smallint
+	);
+
+insert into овощи(srok, temp, name) values(7, 5, 'помидоры');
+insert into овощи(srok, temp, name) values(14, 15, 'огурцы');
+insert into овощи(srok, temp, name) values(30, 20, 'картошка');
+insert into овощи(srok, temp, name) values(20, 5, 'баклажаны');
+
+create table поставщики
+	(
+	id int primary key identity,
+	name varchar(50),
+	telefon varchar(16),
+	kidala bit
+	);
+
+insert into поставщики (name, telefon, kidala) values ('Жанна', '0123456789', 0);
+insert into поставщики (name, telefon, kidala) values ('Жаныбек', '1234567890', 0);
