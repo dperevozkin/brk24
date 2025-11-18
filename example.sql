@@ -26,3 +26,8 @@ create table поставщики
 
 insert into поставщики (name, telefon, kidala) values ('Жанна', '0123456789', 0);
 insert into поставщики (name, telefon, kidala) values ('Жаныбек', '1234567890', 0);
+
+create table поставки
+	(
+	);
+
