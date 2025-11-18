@@ -29,5 +29,11 @@ insert into поставщики (name, telefon, kidala) values ('Жаныбек
 
 create table поставки
 	(
+	id int primary key identity, 
+	id_ovosh int foreign key references овощи (id) not null,
+	id_post int foreign key references поставщики (id) not null,
+    massa float,
+    date_postavka date,
+    price money,
 	);
 
