@@ -47,3 +47,4 @@ create table поставки
     price money,
 	);
 
+insert into поставки (id_ovosh,id_post,massa,date_postavka,price) values (1,2,10.298,'19.11.25',30000);
