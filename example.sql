@@ -48,3 +48,4 @@ create table поставки
 	);
 
 insert into поставки (id_ovosh,id_post,massa,date_postavka,price) values (1,2,10.298,'19.11.25',30000);
+insert into поставки (id_ovosh, id_post, massa, date_postavka, price) values(1, 2, 34, '23.11.2026', 2000);
